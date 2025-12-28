@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url("uang.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.container {
+    width: 500px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 15px 35px rgba(33, 155, 53, 0.2);
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 25px;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #090a09;
+}
+
+.inputBox {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1em;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #3fce22;
+}
+
+button {
+    width: 60%;
+    padding: 14px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 40px;
+    background: #3fce22;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3fce22;
+}
+
+.links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
